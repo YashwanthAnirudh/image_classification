@@ -3,6 +3,13 @@
 # Problem statement 
 The goal is to develop a machine learning model that can accurately classify images of five specific sports persons. This involves creating a robust image classification pipeline, optimizing model performance through hyperparameter tuning, and saving the trained model for integration with a Flask server to enable real-time predictions on the web platform.
 
+# Project file and Input data
+sports_person_classifier_final.ipynb contains the python code of the project which includes the Data cleaning , Feature Engineering , Model training and Hyperparameter Tuning.
+
+Images_dataset- contains the input data(images) that I have used for the project.
+
+Cropped(Cleaned_data) - contains the data/images that I have got after doing data cleaning. 
+
 # Process
 **1. Data Collection:**
 
@@ -20,7 +27,7 @@ Used OpenCV's Haar Cascade technique (from the official documentation) to detect
 
 Cropped the detected faces and saved them in the cropped folder for model training.
 
-Performed manual cleaning of the cropped folder by removing irrelevant or incorrectly cropped images.
+Performed manual cleaning of the cropped folder by removing irrelevant images.
 
 **3. Feature Engineering**
 
